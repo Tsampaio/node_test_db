@@ -1,0 +1,30 @@
+{
+  "name": "JSRestAPItest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --watch",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marie-FD/JSRestAPItest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marie-FD/JSRestAPItest/issues"
+  },
+  "homepage": "https://github.com/Marie-FD/JSRestAPItest#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "jest": "^27.4.5",
+    "mongoose": "^6.1.4",
+    "supertest": "^6.1.6"
+  }
+}
